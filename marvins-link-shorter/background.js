@@ -9,8 +9,9 @@ chrome.tabs.query({'active': true, 'windowId': chrome.windows.WINDOW_ID_CURRENT}
             && tab !== "chrome://extensions/?id=dlcndoeajhdcfloijgjgblhbdbpcladh"
             && tab !== "about:blank"
             && tab !== "https://chrome.google.com/webstore/detail/marvins-link-shorter/apibgginpfhgioddcidkijcckipplmoo/related?hl=de&authuser=0"
-            && tav !== "https://chrome.google.com/webstore/detail/marvins-link-shorter/apibgginpfhgioddcidkijcckipplmoo/related?hl=de") {
+            && tab !== "https://chrome.google.com/webstore/detail/marvins-link-shorter/apibgginpfhgioddcidkijcckipplmoo/related?hl=de") {
 
+            
             window.open("https://directly.click/create?url=" + tab, "_blank")
 
         }
