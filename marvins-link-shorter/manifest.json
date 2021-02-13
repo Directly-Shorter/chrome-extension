@@ -1,0 +1,18 @@
+{
+  "name": "Direclty",
+  "description": "An Link Shorter for the directly.click Website!",
+  "version": "1.4",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "widget.html",
+    "default_title": "Directly Link Shorter"
+  },
+  "icons": { "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png" },
+  "background":{
+    "scripts": ["background.js"],
+    "script-src":  ["background.js"]
+  },
+  "permissions": ["tabs"]
+}
